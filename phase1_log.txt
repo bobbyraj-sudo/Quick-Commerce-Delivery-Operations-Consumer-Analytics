@@ -1,0 +1,74 @@
+Raw shape: (45584, 20)
+Columns: ['ID', 'Delivery_person_ID', 'Delivery_person_Age', 'Delivery_person_Ratings', 'Restaurant_latitude', 'Restaurant_longitude', 'Delivery_location_latitude', 'Delivery_location_longitude', 'Order_Date', 'Time_Orderd', 'Time_Order_picked', 'Weather_conditions', 'Road_traffic_density', 'Vehicle_condition', 'Type_of_order', 'Type_of_vehicle', 'multiple_deliveries', 'Festival', 'City', 'Time_taken (min)']
+
+Dtypes:
+ID                                 str
+Delivery_person_ID                 str
+Delivery_person_Age            float64
+Delivery_person_Ratings        float64
+Restaurant_latitude            float64
+Restaurant_longitude           float64
+Delivery_location_latitude     float64
+Delivery_location_longitude    float64
+Order_Date                         str
+Time_Orderd                        str
+Time_Order_picked                  str
+Weather_conditions                 str
+Road_traffic_density               str
+Vehicle_condition                int64
+Type_of_order                      str
+Type_of_vehicle                    str
+multiple_deliveries            float64
+Festival                           str
+City                               str
+Time_taken (min)                 int64
+dtype: object
+
+Null counts (raw):
+ID                                0
+Delivery_person_ID                0
+Delivery_person_Age            1854
+Delivery_person_Ratings        1908
+Restaurant_latitude               0
+Restaurant_longitude              0
+Delivery_location_latitude        0
+Delivery_location_longitude       0
+Order_Date                        0
+Time_Orderd                    1731
+Time_Order_picked                 0
+Weather_conditions              616
+Road_traffic_density            601
+Vehicle_condition                 0
+Type_of_order                     0
+Type_of_vehicle                   0
+multiple_deliveries             993
+Festival                        228
+City                           1200
+Time_taken (min)                  0
+dtype: int64
+Hidden-null-like tokens in 'Time_Orderd': ['nan']
+Hidden-null-like tokens in 'Weather_conditions': ['nan']
+Hidden-null-like tokens in 'Road_traffic_density': ['nan']
+Hidden-null-like tokens in 'Festival': ['nan']
+Hidden-null-like tokens in 'City': ['nan']
+
+Duplicate IDs: 0
+
+Unique cities: <StringArray>
+['Metropolitian', 'Urban', 'Semi-Urban', nan]
+Length: 4, dtype: str
+Unique weather values: <StringArray>
+['Fog', 'Stormy', 'Sandstorms', 'Windy', 'Cloudy', 'Sunny', nan]
+Length: 7, dtype: str
+Unique traffic values: <StringArray>
+['Jam', 'High', 'Medium', 'Low', nan]
+Length: 5, dtype: str
+Unique vehicle types: <StringArray>
+['motorcycle', 'scooter', 'electric_scooter', 'bicycle']
+Length: 4, dtype: str
+Unique order types: <StringArray>
+['Snack', 'Meal', 'Drinks', 'Buffet']
+Length: 4, dtype: str
+Festival values: <StringArray>
+['No', 'Yes', nan]
+Length: 3, dtype: str

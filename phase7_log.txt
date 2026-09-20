@@ -1,0 +1,22 @@
+Linear Regression -> R2: 0.606, MAE: 4.76 min
+Random Forest      -> R2: 0.843, MAE: 3.04 min
+
+Top 15 feature importances (Random Forest):
+Delivery_person_Ratings        0.226684
+multiple_deliveries            0.135525
+Road_traffic_density_Low       0.122242
+distance_km                    0.114404
+Delivery_person_Age            0.096858
+Weather_conditions_Sunny       0.082632
+Vehicle_condition              0.076913
+Weather_conditions_Fog         0.046745
+Weather_conditions_Cloudy      0.046494
+Road_traffic_density_Medium    0.019446
+Festival_Yes                   0.005458
+Festival_No                    0.005354
+Road_traffic_density_Jam       0.004466
+City_Semi-Urban                0.002372
+prep_lag_min                   0.002202
+dtype: float64
+
+Model error spread: mean abs residual=3.04 min, 90th pct abs residual=6.07 min

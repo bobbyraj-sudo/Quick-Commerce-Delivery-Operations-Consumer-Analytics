@@ -1,0 +1,15 @@
+Starting rows: 45584
+Dropped 2992 rows missing critical timestamp/target fields -> 42592 remain
+Imputed 0 nulls in 'Weather_conditions' with mode value 'Fog'
+Imputed 0 nulls in 'Road_traffic_density' with mode value 'Low'
+Imputed 209 nulls in 'Festival' with mode value 'No'
+Imputed 1092 nulls in 'City' with mode value 'Metropolitian'
+Imputed 210 nulls in 'Delivery_person_Age' with median value 30.0
+Imputed 261 nulls in 'Delivery_person_Ratings' with median value 4.7
+Imputed 920 nulls in 'multiple_deliveries' with median value 1.0
+Dropped 0 rows with out-of-range age/rating -> 42592 remain
+Dropped 0 rows with implausible Time_taken -> 42592 remain
+Dropped 0 duplicate IDs -> 42592 remain
+
+Final cleaned shape: (42592, 22)
+Retention rate: 93.4% of original 45584 rows

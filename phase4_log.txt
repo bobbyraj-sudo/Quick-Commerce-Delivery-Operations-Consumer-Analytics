@@ -1,0 +1,49 @@
+EDA on 42166 cleaned & feature-engineered rows
+Time_taken skewness: 0.47 (right-skewed -> median more representative than mean)
+
+Median delivery time by traffic density:
+Road_traffic_density
+Low       20.0
+Medium    26.0
+High      27.0
+Jam       31.0
+Name: Time_taken (min), dtype: float64
+
+Median delivery time by weather:
+Weather_conditions
+Cloudy        29.0
+Fog           29.0
+Sandstorms    26.0
+Stormy        26.0
+Windy         26.0
+Sunny         20.0
+Name: Time_taken (min), dtype: float64
+
+Median delivery time -> Festival: 45.0 min, Non-Festival: 25.0 min
+
+Top 5 worst City x Hour cells by SLA breach rate:
+City           order_hour
+Urban          20            44.496487
+               19            44.444444
+               21            43.325527
+Metropolitian  20            42.342091
+               21            41.798234
+dtype: float64
+
+Median delivery time by multiple_deliveries count:
+multiple_deliveries
+0.0    22.0
+1.0    26.0
+2.0    40.0
+3.0    48.0
+Name: Time_taken (min), dtype: float64
+
+Correlation with Time_taken (min):
+Time_taken (min)           1.000000
+multiple_deliveries        0.379548
+distance_km                0.330294
+Delivery_person_Age        0.303986
+prep_lag_min              -0.002815
+Vehicle_condition         -0.244785
+Delivery_person_Ratings   -0.357831
+Name: Time_taken (min), dtype: float64

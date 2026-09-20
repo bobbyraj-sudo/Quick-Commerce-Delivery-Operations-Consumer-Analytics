@@ -1,0 +1,18 @@
+ANOVA (Time_taken ~ Road_traffic_density): F=3164.23, p=0.00e+00
+  -> Statistically significant (p<0.05): traffic density genuinely drives delivery time.
+
+Welch's t-test (Festival vs Non-Festival Time_taken): t=133.98, p=0.00e+00
+  Festival mean=45.5 min (n=839), Non-Festival mean=26.0 min (n=41327)
+  -> Statistically significant difference.
+
+Chi-square test (Festival x SLA_breach): chi2=2377.11, dof=1, p=0.00e+00
+sla_breach      0     1
+Festival               
+No          31861  9466
+Yes            34   805
+  -> Significant association.
+
+Pearson correlation (distance_km vs Time_taken): r=0.330, p=0.00e+00
+
+Pearson correlation (prep_lag_min vs Time_taken): r=-0.003, p=5.63e-01
+  -> Despite large n, effect is negligible: kitchen-side prep delay is NOT a meaningful driver of total delivery time in this dataset.

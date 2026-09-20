@@ -1,0 +1,13 @@
+Input rows: 42592
+Distance stats (km): min=1.47, median=9.19, max=6884.73
+Capped distance outliers above 99th percentile (20.9 km) -> dropped 426 rows
+Prep-lag stats (min): median=10.0, 95th pct=15.0
+
+SLA threshold by city (75th percentile of Time_taken):
+City
+Metropolitian    33.0
+Semi-Urban       53.0
+Urban            28.0
+Name: Time_taken (min), dtype: float64
+
+Overall breach rate: 24.4%
